@@ -1,0 +1,21 @@
+{
+  "name": "websocket-control-client",
+  "version": "1.0.0",
+  "description": "WebSocket控制系统客户端",
+  "main": "client/index.html",
+  "scripts": {
+    "serve": "python -m http.server 8080 --directory client",
+    "dev": "python -m http.server 8080 --directory client",
+    "build": "echo 'Client is ready for deployment'"
+  },
+  "keywords": [
+    "websocket",
+    "terminal",
+    "remote-control",
+    "web-interface"
+  ],
+  "author": "Sylphy",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
